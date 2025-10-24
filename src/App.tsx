@@ -55,7 +55,7 @@ function App() {
 
       {/* Third Card */}
       <div>
-      <div className="w-100">
+      <div className="w-110">
         <div className="bg-rose-400 text-white p-5 outline outline-rose-400 rounded-t-lg rounded-br-lg">
           <h1 className="text-lg text-white">{data[2].bio}</h1>
         </div>
