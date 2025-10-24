@@ -1,4 +1,3 @@
-export UserData
 
 const UserData = ({data}) => {
     return (
@@ -11,3 +10,5 @@ const UserData = ({data}) => {
         </div>
     )
 }
+
+export default UserData;
