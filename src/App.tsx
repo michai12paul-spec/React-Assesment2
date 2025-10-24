@@ -19,14 +19,14 @@ function App() {
     },
     // Third
     {
-      name: "Maria Rodriguez",
-      title: "Marketing Manager",
-      bio: "Manages digital marketing and social media strategy. Highly skilled in SEO and content creation.",
+      name: "Chloe Lee",
+      title: "UX/UI Designer",
+      bio: "Creates user-friendly interfaces and visual designs.",
     }
   ]
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen ">
+    <div className="flex flex-col items-center justify-center h-screen my-6">
       {/*First Card*/}
       <div className="w-100">
         <div className="bg-cyan-600 text-white p-5 outline outline-cyan-700 rounded-t-lg">
@@ -49,9 +49,27 @@ function App() {
           <div className="flex items-center justify-center rounded-r-full outline outline-slate-500">
             <h1 className="text-stone-900 text-xl text-justify pl-5 text-left">{data[1].bio}</h1>
           </div>
-
         </div>
       </div>
+
+
+      {/* Third Card */}
+      <div>
+      <div className="w-100">
+        <div className="bg-rose-400 text-white p-5 outline outline-rose-400 rounded-t-lg rounded-br-lg">
+          <h1 className="text-lg text-white">{data[2].bio}</h1>
+        </div>
+        <div className="bg-rose-200 text-center p-4 outline outline-rose-400 rounded-b-lg w-fit">
+          <h1 className="text-2xl text-rose-700 text-left">{data[2].name}</h1>
+          <h3 className="text-xl text-rose-500 text-left">{data[2].title}</h3>
+        </div>
+
+        <div className="my-4"></div>
+
+      </div>
+      </div>
+
+
     </div>
   )
 
