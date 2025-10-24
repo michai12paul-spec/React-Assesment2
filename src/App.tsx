@@ -16,7 +16,7 @@ function App() {
       <div className="w-[400px}">
         <div className="bg-cyan-600 text-white p-5 outline outline-cyan-700 rounded-t-lg">
           <h1 className="text-lg text-cyan-100">{data[0].bio}</h1>
-          <h1>hello</h1>
+          <h1>hello hi</h1>
         </div>
       </div>
       <UserData/>
